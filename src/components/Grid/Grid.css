@@ -1,0 +1,29 @@
+.grid-wrapper{
+    max-width:330px;
+}
+.grid{
+    height:330px;
+    width:330px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.turn-highlight{
+    color: white;
+    white-space: nowrap;
+}
+
+.reset-button{
+    margin-top:20px;
+    padding:10px;
+    border-radius:10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
